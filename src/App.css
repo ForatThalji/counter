@@ -1,0 +1,253 @@
+.card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  position: relative;
+}
+
+.delete-button {
+  /* position: absolute; */
+  top: 120px;
+  right: 10px;
+  cursor: pointer;
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.read-container {
+  padding: 20px;
+}
+
+.update-container {
+  padding: 20px;
+}
+/* App.css */
+
+/* تنسيق النموذج */
+form {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #15549d;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #a04592;
+}
+
+/* تنسيق الصفحة الرئيسية */
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.container {
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+p {
+  font-size: 16px;
+  color: #666;
+}
+
+/* تنسيق الروابط */
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+a:hover {
+  color: #666;
+}
+
+/* تنسيق محتوى Main */
+.main-content {
+  padding: 20px;
+}
+
+.main-content ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.main-content li {
+  display: inline-block;
+  margin: 10px;
+}
+
+/* تنسيق البطاقات */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 200px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 16px;
+}
+
+.container h4 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.container p {
+  color: #666;
+  margin: 5px 0;
+}
+
+/* تنسيق شريط التنقل */
+.topnav {
+  background-color: #002147;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.topnav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.topnav ul li {
+  float: left;
+}
+
+.topnav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav ul li a:hover {
+  color: white;
+}
+
+.topnav ul li button {
+  background: none;
+  border: none;
+  background-color: rgb(225, 226, 237);
+  border-radius: 12px;
+
+  padding: 14px 16px;
+  text-decoration: none;
+  cursor: pointer;
+ 
+
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  position: relative;
+  width: 250px; /* Adjust the width as needed */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.delete-button, .update-button, .add-button {
+  background-color: #a04592;
+  color: white;
+  border: none;
+  padding: 10px;
+
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-button {
+  background-color: red;
+}
+
+.update-button {
+  background-color: #4CAF50; /* Green */
+  margin-right: 5px;
+}
+
+.add-button {
+  background-color: #007BFF; /* Blue */
+  /* position: absolute; */
+  top: 500px;
+  left: 10px;
+  width:170px;
+  margin-left: 2%;
+  /* right: 20px; */
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.read-container {
+  padding: 20px;
+}
